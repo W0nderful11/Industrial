@@ -1,0 +1,12 @@
+.idea/
+__pycache__/
+tg_config.py
+*.ips
+.env
+data/old_panics/
+data/old_cities/
+data/tmp
+.venv
+venv
+migrations
+alembic.ini

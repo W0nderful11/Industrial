@@ -1,0 +1,1368 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-17 22:54+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: services/analyzer/resistor_calculator.py:46
+msgid "GΩ"
+msgstr ""
+
+#: services/analyzer/resistor_calculator.py:47
+msgid "MΩ"
+msgstr ""
+
+#: services/analyzer/resistor_calculator.py:48
+msgid "kΩ"
+msgstr ""
+
+#: services/analyzer/resistor_calculator.py:49
+msgid "Ω"
+msgstr ""
+
+#: services/telegram/handlers/registration.py:119
+msgid "🎁 Welcome bonus: {count} tokens have been credited to your account."
+msgstr ""
+
+#: services/telegram/handlers/registration.py:136
+msgid ""
+"🎉 A new user has registered using your referral link! You have been "
+"credited with {count} tokens."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:32
+#: services/telegram/handlers/home/user_commands.py:268
+#: services/telegram/handlers/registration.py:158
+msgid ""
+"Приветствую @{}🙂🤝🏼\n"
+"Я помогу тебе с анализом сбоев\n"
+"Отправь мне файл и я его проанализирую 🔬"
+msgstr ""
+
+#: services/telegram/handlers/topup.py:54
+msgid "Не удалось получить информацию о ценах. Обратитесь к администратору."
+msgstr ""
+
+#: services/telegram/handlers/topup.py:74
+msgid ""
+"✅ Регион определён по вашему профилю: {region}\n"
+"\n"
+"Стоимость пополнения для вашего региона:\n"
+"<b>1 токен = {price} {symbol}</b>"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:36
+msgid "Введите ID или @username пользователя, которому хотите пополнить баланс:"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:66
+msgid "Пользователь с ID/именем '{id}' не найден. Попробуйте снова."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:80
+msgid "Пользователь @{username} (ID: {user_id}) найден. Выберите тип пополнения:"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:96
+#: services/telegram/handlers/admin/admin_topup.py:230
+msgid ""
+"Произошла ошибка состояния. Пожалуйста, начните процесс пополнения заново"
+" с /topup_user."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:109
+msgid "Ошибка: Не найдена конфигурация цен по умолчанию."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:118
+msgid ""
+"Введите сумму пополнения в {currency_code} ({currency_symbol}) для "
+"пользователя @{username}:"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:126
+msgid "Введите количество токенов для пополнения пользователя @{username}:"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:147
+msgid ""
+"Произошла ошибка состояния (отсутствуют данные). Пожалуйста, начните "
+"процесс пополнения заново с /topup_user."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:158
+msgid ""
+"Неверный формат суммы. Пожалуйста, введите положительное число (например,"
+" 100 или 50.5):"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:170
+msgid ""
+"Ошибка расчета цены токена (цена не положительная). Обратитесь к "
+"разработчику."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:181
+msgid "Введенной суммы недостаточно для покупки даже 1 токена."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:195
+#: services/telegram/handlers/admin/admin_topup.py:253
+msgid ""
+"✅ Успешно пополнено {tokens} токенов для пользователя @{username} (ID: "
+"{user_id})."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:202
+#: services/telegram/handlers/admin/admin_topup.py:260
+msgid "🎉 Ваш баланс пополнен администратором на {tokens} токенов!"
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:212
+#: services/telegram/handlers/admin/admin_topup.py:270
+msgid "Не удалось обновить баланс пользователя в базе данных."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:217
+msgid "Произошла внутренняя ошибка при расчете или пополнении токенов."
+msgstr ""
+
+#: services/telegram/handlers/admin/admin_topup.py:241
+msgid ""
+"Неверный формат количества. Пожалуйста, введите положительное целое число"
+" (например, 10):"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:51
+msgid "Имя:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:52
+msgid "Место работы:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:53
+msgid "Страна:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:54
+msgid "Город:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:55
+msgid "Номер:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:83
+msgid "Выберите длительность подписки"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:90
+msgid "Вы успешно продлили подписку пользователя @{}"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:92
+msgid ""
+"Вам продлили подписку \n"
+"Срок ее окончания: \n"
+"{}"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:98
+#: services/telegram/handlers/admin/main.py:110
+msgid "У вас нет доступа к этой функции"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:102
+msgid "Выберите язык рассылки:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:117
+msgid "Enter the message in English:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:118
+msgid "Введите сообщение на русском языке:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:139
+msgid "Сообщение слишком длинное. Максимальная длина - 4096 символов."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:155
+msgid ""
+"Предварительный просмотр сообщения:\n"
+"\n"
+"{}\n"
+"\n"
+"Подтвердить рассылку?"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:173
+msgid "Ошибка: Не удалось получить данные для рассылки."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:231
+msgid "Рассылка отменена"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:238
+msgid "Введите user_id и сумму через пробел:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:253
+msgid "balance_updated"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:255
+msgid "update_failed"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:257
+#: services/telegram/handlers/admin/main.py:386
+msgid "invalid_input_format"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:266
+msgid ""
+"Для списания токенов используйте команду: `- [ID] [Количество]`, "
+"например: `-123456789 10`"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:292
+msgid "Пользователь не найден!"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:302
+msgid "Ошибка! Введите корректные данные (пример: 123456789 100)"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:308
+msgid "Выберите действие:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:318
+msgid ""
+"Введите ID пользователя и количество токенов через пробел (например, "
+"123456789 10):"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:323
+msgid "server_error"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:334
+#: services/telegram/handlers/home/admin_commands.py:42
+msgid "Количество токенов должно быть положительным."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:340
+#: services/telegram/handlers/home/admin_states.py:112
+#: services/telegram/handlers/home/admin_states.py:184
+#: services/telegram/handlers/home/admin_states.py:250
+msgid "Пользователь с ID {} не найден."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:350
+msgid "✅ Успешно добавлено {} токенов пользователю {}. Новый баланс: {} токенов."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:356
+msgid "🎉 Вам начислено {} токенов! Ваш новый баланс: {} токенов."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:364
+msgid "Не удалось добавить токены. Проверьте логи."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:367
+msgid ""
+"Неверный формат. Введите ID пользователя и количество токенов через "
+"пробел (например, 123456789 10)."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:370
+msgid "Произошла ошибка при начислении токенов."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:377
+msgid "Эта функция (set_pricing) больше не используется."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:394
+msgid "invalid_amount_format"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:397
+msgid "amount_positive_required"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:409
+msgid "❌ Invalid format. Use: - [User ID] [Number of Tokens]"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:417
+msgid "The number of tokens to deduct must be positive."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:422
+msgid "User with ID {user_id} not found."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:427
+msgid ""
+"User {user_id} does not have enough tokens to deduct ({current_balance} <"
+" {deduct_amount})."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:435
+msgid "Error: Token deduction function is not configured on the server."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:442
+msgid ""
+"✅ {tokens} tokens deducted from user {user_id}. New balance: "
+"{new_balance} tokens."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:446
+msgid "⚠️ An error occurred while deducting tokens."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:450
+msgid "❌ Format error. User ID and token amount must be numbers."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:453
+msgid "⚠️ A system error occurred while deducting tokens."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:462
+msgid "Выберите язык пользователей для начисления токенов:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:479
+msgid ""
+"Введите количество токенов для начисления КАЖДОМУ пользователю с {lang} "
+"языком:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:491
+msgid "Количество токенов должно быть положительным числом."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:497
+msgid "Ошибка: язык не выбран. Начните заново."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:510
+msgid ""
+"Вы уверены, что хотите начислить {amount} токенов каждому из {count} "
+"пользователей с {lang} языком?\n"
+"Это действие НЕОБРАТИМО."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:519
+msgid "Пожалуйста, введите корректное целое число."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:522
+msgid "Произошла ошибка. Попробуйте снова."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:538
+msgid "Ошибка: Неверные данные для начисления. Начните заново."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:546
+msgid ""
+"Начинаю начисление {amount} токенов пользователям с {lang} языком... Это "
+"может занять некоторое время."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:572
+msgid "🎉 Вам было начислено {amount} токенов администратором!"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:587
+msgid ""
+"Массовое начисление {amount} токенов для пользователей с {lang} языком "
+"завершено.\n"
+"Успешно начислено: {success}\n"
+"Не удалось начислить: {fail}"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:608
+msgid ""
+"Произошла критическая ошибка во время начисления ({lang}). Часть токенов "
+"могла быть не начислена. Проверьте логи."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:612
+msgid "Массовое начисление токенов отменено."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:615
+msgid "Неизвестное действие."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:631
+msgid "Введите ваше сообщение для пользователя:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:644
+msgid "Ошибка: ID пользователя для ответа не найден. Начните заново."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:650
+msgid "Ошибка: Не удалось найти пользователя для ответа в базе данных."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:658
+msgid "Сообщение от администратора:"
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:664
+msgid "Сообщение успешно отправлено."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:667
+msgid "Не удалось отправить сообщение. Проверьте логи."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:676
+#: services/telegram/handlers/admin/main.py:697
+msgid "Нет зарегистрированных пользователей."
+msgstr ""
+
+#: services/telegram/handlers/admin/main.py:725
+msgid "Admin panel"
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:36
+msgid ""
+"\n"
+"\n"
+"🎁 *Приветственный бонус*: на ваш аккаунт начислено {count} токенов."
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:42
+msgid ""
+"\n"
+"📊 *Дополнительный бонус*: после первого анализа любого устройства вы "
+"получите ещё 9 бесплатных проверок логов для него — в течение 30 дней."
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:47
+msgid ""
+"\n"
+"🗓️ *Ежемесячный бонус*: 1-го числа каждого месяца в 00:05 вам будет "
+"автоматически начисляться {monthly_count} токен."
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:58
+msgid ""
+"\n"
+"Пользователь принят ✅"
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:63
+msgid "Вы приняты, теперь вам доступен весь функционал 😄"
+msgstr ""
+
+#: services/telegram/handlers/admin/registration.py:84
+msgid ""
+"\n"
+"Пользователь отклонен ❌"
+msgstr ""
+
+#: services/telegram/handlers/admin/replace_panic.py:64
+msgid ""
+"Можно заменить только файлы cities, panic_codes, nand_list и "
+"regional_prices❗️"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:91
+msgid "Подождите, идет Анализ..."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:136
+msgid "Токен не списан, т.к. готовое решение не найдено в базе."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:145
+#: services/telegram/template/analyzer.py:33
+msgid "Не указана"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:160
+msgid "Полный ответ ⏬"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:207
+msgid "Анализ по подписке (осталось {count} бесплатных для этого устройства)."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:229
+msgid ""
+"Списан 1 токен (остаток: {balance}).\n"
+"Начался 30-дневный период: следующие {count} анализов для этого отчета "
+"будут бесплатными."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:234
+msgid "Списан 1 токен (остаток: {balance})."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:236
+msgid "Произошла ошибка при списании токена."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:279
+#: services/telegram/handlers/analyzer/analyzer.py:490
+msgid "Device Information:"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:280
+#: services/telegram/handlers/analyzer/analyzer.py:491
+#: services/telegram/template/analyzer.py:16
+msgid "📱 Модель:"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:281
+#: services/telegram/handlers/analyzer/analyzer.py:492
+#: services/telegram/template/analyzer.py:17
+msgid "🛠️ Версия iOS:"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:282
+#: services/telegram/handlers/analyzer/analyzer.py:493
+#: services/telegram/template/analyzer.py:18
+msgid "📅 Дата сбоя:"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:283
+#: services/telegram/handlers/analyzer/analyzer.py:494
+#: services/telegram/template/analyzer.py:43
+msgid "Найденные ошибки и рекомендации по ремонту:"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:324
+#: services/telegram/handlers/analyzer/analyzer.py:543
+msgid ""
+"Если вам нужна дополнительная помощь специалиста или вы хотите обсудить "
+"полученный ответ, нажмите кнопку ниже. 👇\n"
+"\n"
+"Пожалуйста, не забудьте отправить файл лога или скриншот в следующем "
+"сообщении в чат с консультантом, чтобы он мог быстрее вам помочь."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:338
+msgid "Получен результат анализа"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:354
+msgid "Произошла непредвиденная ошибка при анализе. Администраторы уведомлены."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:366
+msgid ""
+"\n"
+"Что проверить в первую очередь (по функционалу):\n"
+" 1. Работоспособность Wi-Fi и модема — часто связаны с межплатными "
+"обрывами или RF-модулем.\n"
+" 2. Функции вибрации (Taptic Engine) — обратите внимание, работает ли "
+"вибрация корректно, без посторонних звуков.\n"
+" 3. Проверка компаса и гироскопа — зайдите в соответствующие системные "
+"приложения или через сторонние тестеры. При сбоях — возможна проблема с "
+"передним шлейфом или контроллерами.\n"
+" 4. Звук и запись микрофона — тестируем диктофон, аудио в видео, звонках."
+"\n"
+" 5. Автоповорот экрана — косвенно указывает на работу гироскопа и "
+"акселерометра.\n"
+" 6. Работа датчиков освещённости, барометра и приближения — особенно "
+"после ударов или попадания влаги.\n"
+" 7. Функция зарядки и подключение к ПК — может указывать на сбой "
+"контроллера Lightning и Type-C\n"
+"        "
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:376
+msgid ""
+"\n"
+"На что обратить внимание при осмотре:\n"
+" 1. Следы окислов на шлейфах и коннекторах (особенно нижний шлейф, шлейф "
+"беспроводной зарядки, разъём Taptic Engine).\n"
+" 2. Наличие мелких сколов, трещин или выгибов платы — это может указывать"
+" на внутренние межслойные обрывы.\n"
+"        "
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:381
+msgid ""
+"\n"
+"Что подкинуть для проверки:\n"
+" 1. Полностью рабочий дисплей с передним шлейфом — для исключения проблем"
+" с датчиками освещения, компасом и гироскопом.\n"
+" 2. Заведомо исправный нижний шлейф с вибромотором и Lightning (Type-C) "
+"-коннектором.\n"
+" 3. Заведомо рабочий корпус в сборе с кнопками, динамиками и периферией —"
+" чтобы исключить влияние внешних компонентов.\n"
+" 4. Другой аккумулятор — при нестабильной загрузке или странных "
+"перезагрузках.\n"
+" 5. Оригинальный шлейф беспроводной зарядки — даже если сбой в другой "
+"части, этот модуль часто мешает другим.\n"
+"        "
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:389
+msgid ""
+"\n"
+"Важно:\n"
+"При скрытых межплатных обрывах, повреждениях слоя платы или повреждениях "
+"способе попадании влаги, симптомы могут проявляться в неожиданных узлах —"
+" например, неработающий компас может быть следствием неисправного "
+"вибромотора или барометра. Поэтому при отсутствии чёткой ошибки "
+"обязательно проверяйте всю периферию в сборе, шаг за шагом подкидывая "
+"исправные модули.\n"
+"        "
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:393
+msgid ""
+"Желаем удачи в ремонте! Если появятся уточняющие данные по этой ошибке — "
+"бот обязательно подскажет решение."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:427
+msgid "Полный ответ больше недоступен или истек срок его хранения."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:609
+msgid "Пользователь нажал полный ответ"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:667
+msgid "Please describe your issue — it will be sent to the admin."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:715
+msgid "Ответить пользователю"
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:740
+msgid "Не удалось переслать исходный файл для жалобы."
+msgstr ""
+
+#: services/telegram/handlers/analyzer/analyzer.py:743
+msgid "Thank you! Your message has been sent to the admin."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:36
+msgid "📊 Список всех пользователей:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:39
+msgid "Не указан"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:99
+#: services/telegram/handlers/home/admin_commands.py:307
+msgid "Добро пожаловать в админ панель!"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:110
+msgid "Введите user_id пользователя, которого хотите удалить:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:119
+msgid "Введите новую стоимость анализа:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:130
+msgid "enter_user_id_and_amount"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:144
+msgid "Введите user_id для проверки:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:154
+msgid "Введите user_id для просмотра истории:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_callbacks.py:164
+msgid "Введите user_id для обнуления баланса:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_commands.py:30
+#: services/telegram/handlers/home/admin_commands.py:118
+msgid ""
+"Произошла ошибка: не удалось получить данные администратора для "
+"отображения меню."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_commands.py:74
+msgid ""
+"✅ Пользователю {user_id} добавлено {tokens} токенов. Новый баланс: "
+"{new_balance} токенов."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_commands.py:87
+msgid ""
+"❌ Ошибка формата данных. Используйте: + [user_id] [кол-во_токенов]. "
+"Убедитесь, что ID и количество токенов - целые числа."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_commands.py:107
+msgid "🔧 Меню управления балансом:"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:35
+msgid "Пользователь удален!"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:42
+msgid "Пользователь с таким ID не найден."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:50
+#: services/telegram/handlers/home/admin_states.py:127
+#: services/telegram/handlers/home/admin_states.py:158
+#: services/telegram/handlers/home/admin_states.py:200
+msgid "Неверный формат user_id. Пожалуйста, введите число."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:58
+msgid "Ошибка конфигурации сервера при удалении пользователя."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:66
+msgid "Ошибка при удалении пользователя."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:90
+msgid "Ошибка! Введите число"
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:120
+msgid "Баланс пользователя {user_id}: {balance} токенов."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:135
+msgid "Произошла ошибка при проверке баланса."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:166
+msgid "Произошла ошибка при получении истории."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:193
+msgid "Баланс пользователя {} обнулён."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:208
+msgid "Произошла ошибка при обнулении баланса."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:225
+#: services/telegram/handlers/home/user_callbacks.py:114
+msgid "Сумма должна быть положительной."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:238
+msgid "Произошла ошибка: не найден ID пользователя для пополнения."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:272
+msgid "✅ Баланс пользователя {user_id} пополнен на {amount}{symbol}."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:281
+msgid ""
+"Неверный формат суммы. Пожалуйста, введите число (например, 100 или "
+"100.50)."
+msgstr ""
+
+#: services/telegram/handlers/home/admin_states.py:290
+msgid "Произошла системная ошибка при пополнении."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:28
+#: services/telegram/handlers/home/user_callbacks.py:88
+msgid "Ошибка в данных запроса."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:33
+msgid "Ошибка: администратор не найден."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:72
+msgid "Запрос на пополнение отправлен администратору."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:78
+msgid "Запрос на пополнение принят."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:95
+msgid "Введите сумму для пополнения:"
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:110
+msgid "Неверная сумма для пополнения."
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:126
+msgid "Ваш баланс пополнен на {amount}{symbol}"
+msgstr ""
+
+#: services/telegram/handlers/home/user_callbacks.py:136
+msgid "Не удалось пополнить баланс."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:49
+#: services/telegram/handlers/home/user_commands.py:214
+msgid "💰 Ваш текущий баланс: {} токенов."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:80
+msgid ""
+"Для пополнения баланса свяжитесь с администратором:\n"
+"{admin_contact}"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:124
+msgid "Пользователь {user_details} ({user_id}) запросил пополнение баланса."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:174
+msgid ""
+"📥 *Инструкция по отправке логов для анализа*:\n"
+"✅ *Лучше всего отправлять*:\n"
+"• .ips файл (например, panic-full-[data].ips)\n"
+"• .txt файл (например, экспортированный из 3uTools)\n"
+"Это даст *максимально точный результат и быстрый анализ!*\n"
+"⸻\n"
+"📸 *Также допустимы*:\n"
+"• Скриншоты или *качественные фото* panic-файлов\n"
+"• Обязательно: хорошо виден *верх файла* (самое начало текста)\n"
+"• Без бликов и размытий\n"
+"\n"
+"Файлы можно отправлять прямо сюда, как с телефона, так и с компьютера.\n"
+"⸻\n"
+"🔍 *Как найти panic-файл на iPhone*:\n"
+" 1. Откройте *Настройки*\n"
+" 2. Перейдите в *Конфиденциальность и безопасность*\n"
+" 3. Выберите *Аналитика и улучшения*\n"
+" 4. Перейдите в *Данные аналитики*\n"
+" 5. Найдите файл, начинающийся с panic-full-...\n"
+"Для лучшего результата можно отправить *несколько последних файлов*.\n"
+"⸻\n"
+"💰 *Использование токенов и бонусы*:\n"
+"• *1 токен списывается только если найдено решение*\n"
+"• 📊 *Бонус*: после первого анализа устройства вы получите ещё 9 "
+"бесплатных проверок логов для него, сроком на 30 дней\n"
+"• 🗓️ *Ежемесячный бонус*: 1-го числа в 00:05 вы получаете *+1 бесплатный "
+"токен*"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:226
+msgid ""
+"Пригласите друга и получите 2 токена после того, как он зарегистрируется "
+"по вашей ссылке.\n"
+"Ваша реферальная ссылка: {referral_link}"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:242
+msgid "Выберите язык:"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:258
+msgid "Язык изменен"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:279
+msgid "Перейдите по ссылке: {channel_url}"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:292
+msgid "Нажмите кнопку ниже, чтобы начать поиск дисков:"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:300
+msgid "Искать диск 🔍"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:320
+msgid "Пожалуйста, укажите модель диска после команды /disk."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:336
+msgid "Ошибка: справочник дисков временно недоступен."
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:361
+msgid ""
+"К сожалению данные по '{model_name}' не найдены. Возможно вы искали:\n"
+"{suggestions}"
+msgstr ""
+
+#: services/telegram/handlers/home/user_commands.py:365
+msgid "К сожалению данные по '{model_name}' не найдены."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:69
+msgid "Ошибка: Количество полос не установлено."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:72
+msgid ""
+"<b>Калькулятор цветовой маркировки</b>\n"
+"\n"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:77
+msgid "Выбранные цвета: {colors}\n"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:90
+msgid ""
+"\n"
+"<b>Результат:</b>\n"
+"{colors_list}\n"
+"\n"
+"<b>Сопротивление: {res} {tol}{tcr}</b>\n"
+"\n"
+"<i>*Мощность не влияет на цветовую маркировку. Она определяется "
+"физическим размером резистора.</i>"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:105
+#: services/telegram/handlers/tools/resistor_calculator.py:532
+msgid "Как определить мощность на глаз?"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:110
+msgid ""
+"\n"
+"<b>Ошибка:</b> Неверная комбинация цветов."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:115
+msgid ""
+"\n"
+"Выберите цвет для <b>{band_name}</b>:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:132
+msgid "Сброс"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:134
+msgid "Назад"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:148
+msgid ""
+"<b>Неверный SMD-код</b> 😕\n"
+"\n"
+"Пожалуйста, проверьте правильность ввода. Код должен соответствовать "
+"одному из стандартных форматов:\n"
+"• 3 цифры (<code>103</code>)\n"
+"• 4 цифры (<code>4702</code>)\n"
+"• С 'R' (<code>4R7</code>)\n"
+"• EIA-96 (<code>01A</code>)\n"
+"\n"
+"Если вы уверены в коде, возможно, это специфическая маркировка. "
+"Попробуйте найти даташит на компонент."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:172
+msgid ""
+"<b>Код:</b> <code>{code}</code>\n"
+"<b>Номинал:</b> {res}\n"
+"\n"
+"Выберите типоразмер для определения мощности:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:194
+msgid "🔢 Рассчитать по коду"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:198
+msgid "✍️ Рассчитать по номиналу"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:203
+msgid ""
+"<b>Калькулятор SMD-резисторов</b>\n"
+"\n"
+"Я могу рассчитать номинал по коду или найти код по номиналу.\n"
+"\n"
+"<b>Примеры по коду (режим 'Рассчитать по коду'):</b>\n"
+"• <code>103</code> (3 цифры)\n"
+"• <code>4702</code> (4 цифры)\n"
+"• <code>4R7</code> (с 'R')\n"
+"• <code>01A</code> (EIA-96)\n"
+"\n"
+"<b>Примеры по номиналу (режим 'Рассчитать по номиналу'):</b>\n"
+"• <code>10k</code>\n"
+"• <code>4.7M</code>\n"
+"• <code>150</code> (будет понято как 150 Ом)\n"
+"\n"
+"Также можно вызывать команды напрямую: <code>/smd 103</code> или "
+"<code>/smdvalue 10k</code>."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:230
+msgid "Введите код с корпуса резистора, например: 4R7, 4702, 03B ..."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:253
+msgid ""
+"Введите номинал для подбора SMD-кода.\n"
+"Примеры: 10k, 4.7M, 150, 4R7"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:273
+#: services/telegram/handlers/tools/resistor_calculator.py:430
+msgid "Неверный формат. Введите число, например: 4.7 или 150."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:278
+msgid "Не удалось найти подходящий SMD код для этого номинала."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:283
+msgid "<b>Value:</b> {resistance}\n"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:285
+msgid "<b>Code (3/4 digits):</b> <code>{code}</code>"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:287
+msgid "<b>EIA-96 Code (1%):</b> <code>{code}</code>"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:300
+msgid ""
+"<b>Номинал:</b> {res}\n"
+"<b>Типоразмер:</b> {size}\n"
+"<b>Рекомендуемая мощность:</b> {power} Вт\n"
+"\n"
+"<i>*Мощность определяется физическим размером корпуса (типоразмером), а "
+"не значением сопротивления.</i>"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:323
+msgid ""
+"<b>Итоговые параметры резистора:</b>\n"
+"\n"
+"<b>Номинал:</b> {res}\n"
+"<b>Точность:</b> {tol}\n"
+"<b>Мощность:</b> {power}"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:346
+msgid ""
+"<b>Калькулятор SMD-резисторов (Номинал -> Код)</b>\n"
+"\n"
+"Пожалуйста, укажите номинал сопротивления после команды.\n"
+"\n"
+"<b>Примеры:</b>\n"
+"• <code>/smdvalue 10k</code>\n"
+"• <code>/smdvalue 4.7M</code>\n"
+"• <code>/smdvalue 150</code>\n"
+"• <code>/smdvalue 4R7</code>"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:365
+msgid "🎨 Рассчитать по цветам"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:369
+msgid "🔢 Рассчитать по номиналу"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:374
+msgid ""
+"<b>Калькулятор резисторов</b>\n"
+"\n"
+"Выберите режим работы:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:383
+#: services/telegram/handlers/tools/resistor_calculator.py:581
+msgid "4 полоски"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:385
+#: services/telegram/handlers/tools/resistor_calculator.py:583
+msgid "5 полосок"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:387
+#: services/telegram/handlers/tools/resistor_calculator.py:585
+msgid "6 полосок"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:392
+#: services/telegram/handlers/tools/resistor_calculator.py:589
+msgid "Выберите количество цветовых полос на резисторе:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:403
+msgid "Введите числовое значение сопротивления (например: 4.7, 150, 22)"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:445
+msgid "Выберите единицу измерения:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:457
+msgid "Ошибка: числовое значение не найдено."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:474
+msgid "Выберите точность:"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:489
+msgid "Произошла ошибка, попробуйте снова."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:506
+msgid "Произошла ошибка, неверное значение точности."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:514
+msgid "Не удалось подобрать цвета для указанного номинала."
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:521
+msgid ""
+"<b>Цветовая маркировка для {value} (±{tolerance}%):</b>\n"
+"\n"
+"{colors_list}"
+msgstr ""
+
+#: services/telegram/handlers/tools/resistor_calculator.py:600
+msgid "Мощность резистора можно примерно определить по его физическому размеру."
+msgstr ""
+
+#: services/telegram/handlers/user/profile.py:30
+#: services/telegram/handlers/user/profile.py:42
+msgid ""
+"Для пополнения баланса свяжитесь с администратором:\n"
+"{admin_contacts}"
+msgstr ""
+
+#: services/telegram/jobs/monthly_bonus.py:41
+msgid ""
+"🎁 Вам начислен ежемесячный бонус: {count} токен. Ваш баланс: {balance} "
+"токенов."
+msgstr ""
+
+#: services/telegram/jobs/tasks.py:18
+msgid ""
+"Ваша подписка истекла \n"
+"Обратитесь к админу чтобы вам продлили подписку"
+msgstr ""
+
+#: services/telegram/jobs/tasks.py:32
+msgid ""
+"Ваша подписка истекает через сутки \n"
+"Обратитесь к админу чтобы вам продлили подписку"
+msgstr ""
+
+#: services/telegram/jobs/tasks.py:55
+msgid "🎁 Вам начислен ежемесячный бонус: {count} токен!"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:22
+#: services/telegram/misc/keyboards.py:49
+msgid "Пополнить баланс"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:34
+msgid "Поделиться номером телефона"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:44
+msgid "Инструкция"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:45
+msgid "Мой баланс"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:48
+msgid "Referral link 🔗"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:52
+msgid "Сменить язык"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:53
+msgid "Наш канал"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:56
+msgid "Справочник дисков"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:61
+msgid "Админ панель"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:73
+msgid "Рассылка"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:79
+msgid "Список пользователей"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:85
+msgid "Find user 🔎"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:91
+msgid "Списать токены"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:136
+msgid "Удалить пользователя по ID"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:140
+msgid "Назад в админ панель"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:156
+msgid "Назад ◀️"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:187
+msgid "Материал {number} 📎"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:201
+msgid "Принять ✅"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:205
+msgid "Отклонить ❌"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:214
+msgid "Accept ✅"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:218
+msgid "Reject ❌"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:244
+msgid "1 месяц"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:245
+msgid "3 месяца"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:246
+msgid "6 месяцев"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:247
+msgid "1 год"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:281
+msgid "Показать подробную диагностику"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:305
+msgid "✅ Да, начислить всем"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:311
+msgid "❌ Нет, отменить"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:323
+msgid ""
+"Здравствуйте! Я получил ответ от бота, но хочу проконсультироваться "
+"лично.\n"
+"\n"
+"Вот мой файл: [Пожалуйста, не забудьте отправить файл лога или скриншот в"
+" следующем сообщении в чат]\n"
+"\n"
+"Заранее спасибо за помощь!"
+msgstr ""
+
+#: services/telegram/misc/keyboards.py:354
+msgid "Запросить консультацию 🧑‍🔧"
+msgstr ""
+
+#: services/telegram/misc/notifications/analyzer.py:107
+msgid ""
+"Ваш баланс равен 0.\n"
+"\n"
+"💬 Пожалуйста, обратитесь к администратору для пополнения баланса:\n"
+"\n"
+"{contacts}"
+msgstr ""
+
+#: services/telegram/template/analyzer.py:15
+msgid "Информация об устройстве:"
+msgstr ""
+
+#: services/telegram/template/analyzer.py:59
+msgid ""
+"\n"
+"К сожалению, поиск ключевого слова по нашей базе анализов не дал "
+"результата.\n"
+"Мы обязательно добавим решение по данному анализу в ближайших "
+"обновлениях.\n"
+"\n"
+"Если у вас есть другие panic-файлы, рекомендуем их также изучить и "
+"отправить нам, особенно если в них встречаются отличия. Иногда полезная "
+"информация о сбое содержится только в одном из нескольких файлов.\n"
+"\n"
+"А пока предлагаем провести расширенную диагностику на основе опыта "
+"типовых неисправностей. Ниже собраны ключевые рекомендации, которые "
+"помогут быстрее локализовать проблему даже без точного описания ошибки:\n"
+"                    "
+msgstr ""
+
+#: services/telegram/template/analyzer.py:69
+msgid ""
+"\n"
+"⚠️ Скриншот не читается — проверьте указана ли модель телефона на "
+"скриншоте без нее анализ по фото не будет работать, возможны блики, "
+"размытость или слабое качество.\n"
+"Чтобы бот точно определил проблему, пожалуйста, *прикрепите файл в "
+"формате .ips или .txt* (panic-файл или лог).\n"
+"\n"
+"Так результат будет точнее. Спасибо за понимание! \n"
+"            "
+msgstr ""
+
